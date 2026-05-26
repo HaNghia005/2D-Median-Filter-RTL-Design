@@ -37,4 +37,3 @@ __pycache__/
 # === Intermediate Data Files ===
 data/input/pic_input.txt
 data/output/pic_output.txt
-data/output/output.jpg
