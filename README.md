@@ -29,7 +29,7 @@ RTL-Median-Filter/
 │   └── output
 |        └── output.jpg           # Destination for processed results
 └── README.md
-
+```
 ## Co-Verification Flow
 The design undergoes a robust 3-stage verification loop ensuring hardware correctness against software-level metrics:
 
@@ -64,7 +64,8 @@ Bash
 cd scripts
 python txt2img.py
 python evaluate_metrics.py
-📊 Verification Results
+
+## Verification Results
 Target Resolution: 430 x 554 pixels (8-bit Grayscale)
 
 Filter Window: 3x3 Matrix
