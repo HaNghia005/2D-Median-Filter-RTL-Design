@@ -1,0 +1,40 @@
+# === Quartus Prime Project Junk & Databases ===
+db/
+incremental_db/
+simulation/
+greybox_tmp/
+hc_output/
+.qsys_edit/
+hps_isw_handoff/
+
+# === Quartus Output Compilation Files ===
+*.rpt
+*.summary
+*.sof
+*.pof
+*.jdi
+*.pin
+*.wlf
+*.done
+*.qws
+*.bak
+*.smsg
+
+# === ModelSim / Questa Intel FPGA Edition Simulation Junk ===
+vsim.wlf
+work/
+transcript
+*.vstf
+msim_transcript
+
+# === OS & IDE Junk ===
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+*.pyc
+
+# === Intermediate Data Files ===
+data/input/pic_input.txt
+data/output/pic_output.txt
+data/output/output.jpg
